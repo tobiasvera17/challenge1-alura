@@ -22,7 +22,6 @@ body {
     height: calc(100vh - 30px * 2);
     /* background-color: yellow; */
     margin: 0;
-    /* height: 100%; */
 }
 
 #process {
@@ -59,7 +58,6 @@ body {
     outline: none;
     background-color: transparent;
 }
-
 #text:focus {
     border: none;
     outline: none;
@@ -226,34 +224,34 @@ body {
 
     #main {
         display: flex;
-        /* height: 100%; */
-        height: calc(100vh - 30px * 2);
+        height: 100%;
         flex-direction: column;
         align-items: center;
     }
     
-    #header {
-        background-color: red;
-        width: 100%;
-        flex-grow: 0;
-    }
-
     #process {
         background-color: green;
         width: 100%;
-        height: unset;
+        height: 60%;
         flex-grow: 3;
         /* margin-bottom: 50px; */
     }
     
+    #header {
+        background-color: red;
+        /* height: 1%; */
+        width: 100%;
+        flex-grow: 1;
+    }
     
     .header-logo {
         height: 100%;
+        margin-left: -15px;
     }
     
     #text-container {
         /* margin: 10% 0; */
-        height: 50%;
+        height: 100%;
         /* background-color: purple; */
     }
     
@@ -261,6 +259,7 @@ body {
         /* background-color: aqua; */
         width: 100%;
         margin: 0px auto;
+        /* height: 300px; */
     }
     
     .text-input {
@@ -283,7 +282,8 @@ body {
     #text-buttons-container {
         margin: 0 auto;
         width: 90%;
-        background-color: tomato;
+        height: 10%;
+        /* background-color: tomato; */
     }
     
     #buttons-info-container {
@@ -329,7 +329,7 @@ body {
     }
     
     #result {
-        flex-grow: 0;
+        flex-grow: 2;
         display: flex;
         overflow-y: visible;
         flex-direction: column;
@@ -337,10 +337,10 @@ body {
         justify-content: center;
         align-items: center;
         width: 100%;
+        /* height: 15%; */
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
         border-radius: 32px;
         padding: 40px;
-        height: unset;
     }
     
     #result-img {
