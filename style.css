@@ -123,6 +123,7 @@ body {
     /* line-height: 19px; */
     line-height: 1rem;
     text-align: center;
+    cursor: pointer;
 }
 
 .text-buttons-encrypt{
@@ -242,13 +243,13 @@ body {
     }
     
     #header {
-        background-color: red;
+        /* background-color: red; */
         width: 100%;
         flex-grow: 0;
     }
 
     #process {
-        background-color: green;
+        /* background-color: green; */
         width: 100%;
         height: unset;
         flex-grow: 3;
@@ -262,7 +263,7 @@ body {
     
     #text-container {
         /* margin: 10% 0; */
-        height: 50%;
+        height: 70%;
         /* background-color: purple; */
     }
     
@@ -293,7 +294,7 @@ body {
     #text-buttons-container {
         margin: 0 auto;
         width: 90%;
-        background-color: tomato;
+        /* background-color: tomato; */
     }
     
     #buttons-info-container {
@@ -308,6 +309,7 @@ body {
         line-height: 150%;
         color: #495057;
         opacity: 0.8;   
+        /* margin: 30px; */
     }
     
     #buttons-container {
@@ -325,8 +327,9 @@ body {
         font-weight: 400;
         /* font-size: 16px; */
         font-size: 0.9rem;
-        line-height: 19px;
+        line-height: 20px;
         text-align: center;
+        /* padding:10px; */
     }
     
     .text-buttons-encrypt{
@@ -346,7 +349,7 @@ body {
         overflow-y: visible;
         flex-direction: column;
         background: #FFFFFF;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         width: 100%;
         box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -442,6 +445,7 @@ body {
         line-height: 150%;
         color: #495057;
         opacity: 0.8;   
+        margin-bottom: 20px;
     }
 
     #buttons-container {
@@ -451,16 +455,16 @@ body {
         justify-content: center;
         height: 100%;
         width: 100%;
-        background-color: aqua;
     }
 
     #buttons-container button{
         width: 100%;
-        height: 50px;
+        height: unset;
         font-size: 0.5rem; 
         /* font-size: 7px; */
-        line-height: 19px;
+        line-height: 30px;
         text-align: center;
+    
     }
 
     .text-buttons-encrypt{
